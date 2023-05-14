@@ -41,7 +41,7 @@ const Navbar = () => {
         },
       ];
 
-  return (
+  return ( 
     <nav>
     <div className="nav-logo-container">
       <img src={Logo} alt="" />
@@ -50,7 +50,7 @@ const Navbar = () => {
       <a href="">Home</a>
       <a href="">About</a>
       <a href="">Testimonials</a>
-      <a href="">Contact</a>
+      <a href="">Contact</a> 
       <a href="">
         <BsCart2 className="navbar-cart-icon" />
       </a>
