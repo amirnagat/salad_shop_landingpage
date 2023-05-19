@@ -1,6 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import About from './Components/About'
 import Contact from './Components/Contact'
@@ -10,16 +7,15 @@ import Work from './Components/Work'
 import Footer from './Components/Footer'
 
 function App() {
-
   return (
-   
-   <div className="App">
+  
+  <div className="App">
       <Home /> 
       <About /> 
       <Work /> 
       <Testimonial /> 
       <Contact /> 
-      <Footer /> 
+      <Footer />  
     </div>
   
   )

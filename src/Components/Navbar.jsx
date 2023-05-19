@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Logo from '../assets/Logo.svg';
-import { BsCart2 } from "react-icons/bs";
-import { HiOutlineBars3 } from "react-icons/hi2";
-import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
+import { BsCart2 } from "react-icons/bs"; 
+import { HiOutlineBars3 } from "react-icons/hi2";  
+import Box from "@mui/material/Box";  
+import Drawer from "@mui/material/Drawer"; 
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
+import Divider from "@mui/material/Divider"; 
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -20,13 +20,13 @@ const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
     const menuOptions = [
         {
-          text: "Home",
+          text: "Home",  
           icon: <HomeIcon />,
         },
         {
           text: "About",
           icon: <InfoIcon />,
-        },
+        }, 
         {
           text: "Testimonials",
           icon: <CommentRoundedIcon />,
@@ -39,7 +39,7 @@ const Navbar = () => {
           text: "Cart",
           icon: <ShoppingCartRoundedIcon />,
         },
-      ];
+      ]; 
 
   return (  
     <nav>   
