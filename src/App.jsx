@@ -8,8 +8,8 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-  <div className="App">
-      <Home /> 
+  <div className="App"> 
+      <Home />  
       <About /> 
       <Work /> 
       <Testimonial /> 
