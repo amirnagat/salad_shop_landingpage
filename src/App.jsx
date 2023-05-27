@@ -4,8 +4,8 @@ import Contact from './Components/Contact'
 import Home from './Components/Home'
 import Testimonial from './Components/Testimonial'
 import Work from './Components/Work'
-import Footer from './Components/Footer'
-
+import Footer from './Components/Footer' 
+  
 function App() {
   return (
   <div className="App"> 
